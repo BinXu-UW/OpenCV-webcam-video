@@ -16,6 +16,10 @@ You also need Cython: `pip install Cython`
   *Yolov2 608x608.weights file: https://pjreddie.com/media/files/yolov2.weights (You can try other weighs as well)  
   *put the weights file into `D:\darkflow-master\bin`, you need creat the **bin** folder. The folder name doesn't matter.  
   
+4. put the test video into the `D:\darkflow-master` or similar directroy.  
+    open cmd and type:`python flow --model cfg/yolo.cfg --load bin/yolo.weights --demo videofile.mp4 --gpu 0.7 --saveVideo`.  
+    After this is done. You will see a new video file appear at this directory
+  
 ---
 ## How to train your own model(not your dragon)
 
