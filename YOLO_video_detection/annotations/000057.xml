@@ -1,0 +1,22 @@
+<annotation>
+  <folder>images</folder>
+  <filename>000057.png</filename>
+  <segmented>0</segmented>
+  <size>
+    <width>187</width>
+    <height>270</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Matt_Damon</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>51</xmin>
+      <ymin>26</ymin>
+      <xmax>145</xmax>
+      <ymax>129</ymax>
+    </bndbox>
+  </object>
+</annotation>
