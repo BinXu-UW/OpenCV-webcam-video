@@ -2,7 +2,7 @@
 ---
 
 This project is mean to use OpenCV, Tensorflow and other packages to detect certain object in a video or an real-time webcam recording. 
-I'm using **Python 3.6**   
+I'm using **Python 3.6, Windows 10**   
 
 The following packages will be used:  
  * OpenCV: `pip install opencv-python`  
