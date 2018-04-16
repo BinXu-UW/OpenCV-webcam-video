@@ -17,7 +17,8 @@ You also need Cython: `pip install Cython`
   *put the weights file into `D:\darkflow-master\bin`, you need creat the **bin** folder. The folder name doesn't matter.  
   
 4. put the test video into the `D:\darkflow-master` or similar directroy.  
-    open cmd and type:`python flow --model cfg/yolo.cfg --load bin/yolo.weights --demo videofile.mp4 --gpu 0.7 --saveVideo`.  
+    open cmd and type:`python flow --model cfg/yolo.cfg --load bin/yolo.weights --demo video.mp4 --gpu 0.7 --saveVideo`.
+     You can use other cfg and weights files as long as they are a pair.  
     After this is done. You will see a new video file appear at this directory
   
 ---
