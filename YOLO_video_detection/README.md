@@ -31,4 +31,12 @@ In our case, we write `Matt_Damon` and save it.
 5. Go to https://pjreddie.com/darknet/yolo/ and download Tiny YOLO weights https://pjreddie.com/media/files/yolov2-tiny.weights
 and put it into the bin folder.
 
-6. In the `D:\darkflow-master` directory open cmd. And type`python flow --model cfg/tiny-yolo-voc-1c.cfg --load bin/tiny-yolo-voc.weights --train --annotation train/Annotations --dataset train/Images`
+6. * In the `D:\darkflow-master` directory open cmd.  
+   * type`python flow --model cfg/tiny-yolo-voc-1c.cfg --load bin/yolov2-tiny.weights --train --annotation my_models/annotations --dataset my_models/images --gpu 0.7 --epoch 400`.  
+   * If gpu usage sets greater then`--gpu 0.7` you may get an error like this:`F tensorflow/core/kernels/conv_ops.cc:605] Check failed: stream->parent()->GetConvolveAlgorithms(&algorithms)`  
+   * You may also get this error: `AssertionError: expect 44948596 bytes, found 44948600`.You need go to`D:\darkflow-master\darkflow\utils`
+   modify **loader.py**. Change the line 121 from self.offset = 16 to self.offset = 20
+
+7. Wait until loss become less than 1.0 or near 1.0. I only get to 1.2 and it can not go down any lower. Then type`Ctrl-c` kill it.  
+
+8.
