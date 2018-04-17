@@ -23,3 +23,8 @@ down and make it as a customized training model. I will train myself as a model 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/8333665/38754168-c6f6c7e6-3f2e-11e8-8c57-a0c5e28303d5.png">
 </p>
+
+**With Only 300 pictures as training dataset(need improvement):**  
+<p align="center">
+<img width="320" height="180" src="https://user-images.githubusercontent.com/8333665/38891350-113b3366-4252-11e8-820c-4a8c3162cfaf.gif">,<img width="320" height="180" src="https://user-images.githubusercontent.com/8333665/38891588-d19005f6-4252-11e8-8197-db7710a3fe21.gif">
+</p>
