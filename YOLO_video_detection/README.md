@@ -64,6 +64,10 @@ and put it into the bin folder.
 ---
 ## How to run the project  
 
-1. Gather all the targeted object picture. You can use `google_image_crawler.py` and `gather_all_images.py` or you can your own way to gather them  
+1. Gather all the targeted object pictures. You can use `google_image_crawler.py` and `gather_all_images.py` or you can use your own way to gather them  
 
-2. Use 
+2. Use `generate_xml.py` and `draw_boxes.py` to draw boxes for all the trageted object in each picture.  
+
+3. Train your own model or use existed one.  
+
+4. Run `processing_video.py` to get the result.
