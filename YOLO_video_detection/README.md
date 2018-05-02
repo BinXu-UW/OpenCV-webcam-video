@@ -42,6 +42,22 @@ and put it into the bin folder.
    * You may also get this error: `AssertionError: expect 44948596 bytes, found 44948600`.You need go to`D:\darkflow-master\darkflow\utils`
    modify **loader.py**. Change the line 121 from self.offset = 16 to self.offset = 20
 
-7. Wait until loss become less than 1.0 or near 1.0. I only get to 1.2 and it can not go down any lower. Then type`Ctrl-c` kill it.  
+7. Wait until the loss become less than 1.0 or near 1.0. I only get to 1.2 and it can not go down any lower. When you see a "Checkpoint" appear you can type`Ctrl-c` to kill it.  
 
-8.
+8. In the ckpt folder you will find your own trained model, remember the last one's number, for example `tiny-yolo-voc-fs-1c-1125.profile`  
+
+9. In the `processing_video.py` make sure the load section is correct, for example:  
+    `option = {  `
+    
+    `'model': 'cfg/tiny-yolo-voc-fs-1c.cfg',  `
+    
+    `#'load': 'bin/tiny-yolo-voc.weights',  `
+    
+    `'load': 1125,  ` 
+    
+    `'threshold': 0.65,  ` This is the confidence socre, if you have a very good training model you can set this score above 0.8
+    
+    `'gpu': 0.7  `
+    
+    `}`  
+    
