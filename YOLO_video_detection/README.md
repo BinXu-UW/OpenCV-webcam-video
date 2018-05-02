@@ -61,3 +61,9 @@ and put it into the bin folder.
     
     `}`  
     
+---
+## How to run the project  
+
+1. Gather all the targeted object picture. You can use `google_image_crawler.py` and `gather_all_images.py` or you can your own way to gather them  
+
+2. Use 
