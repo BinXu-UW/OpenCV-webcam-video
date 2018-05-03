@@ -18,4 +18,4 @@ i = 0
 for folder in matt_damon:
     for imfile in os.scandir(folder):
         os.rename(imfile.path, os.path.join(imdir, '{:06}.png'.format(i))) 
-        i += 1 # renumber all the images from 0 to 9999
+        i += 1 # rename all the images from 0 to 9999
