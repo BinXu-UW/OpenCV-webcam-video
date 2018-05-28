@@ -20,6 +20,8 @@ detection. We will use this method to detect certain person in a video. we will 
 the actor "matt damon". Because as an actor there are huge amount of pics online, so it is easy to crawl them
 down and make it as a customized training model. I will train myself as a model as well later on.  
 
+Youtube video for demonstration: https://youtu.be/XnXwnFud4w4  
+
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/8333665/38754168-c6f6c7e6-3f2e-11e8-8c57-a0c5e28303d5.png">
 </p>
